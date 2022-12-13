@@ -1,0 +1,101 @@
+%ic {
+	font-family: "narada";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+._icon-telegram_black:before {
+	content: "\e90a";
+}
+._icon-viber:before {
+	content: "\e90b";
+}
+._icon-discord:before {
+	content: "\e90c";
+}
+._icon-github:before {
+	content: "\e90d";
+}
+._icon-vk-1:before {
+	content: "\e90e";
+}
+._icon-youtube:before {
+	content: "\e90f";
+}
+._icon-skype-1:before {
+	content: "\e910";
+}
+._icon-telegram-1:before {
+	content: "\e911";
+}
+._icon-facebook-messenger:before {
+	content: "\e912";
+}
+._icon-linkedin-in:before {
+	content: "\e913";
+}
+._icon-linkedin-1:before {
+	content: "\e914";
+}
+._icon-facebook-1:before {
+	content: "\e915";
+}
+._icon-square-whatsapp:before {
+	content: "\e916";
+}
+._icon-whatsapp-1:before {
+	content: "\e917";
+}
+._icon-tiktok:before {
+	content: "\e918";
+}
+._icon-twitter-1:before {
+	content: "\e919";
+}
+._icon-instagram-1:before {
+	content: "\e91a";
+}
+._icon-facebook-f:before {
+	content: "\e91b";
+}
+._icon-development:before {
+	content: "\e900";
+}
+._icon-file:before {
+	content: "\e901";
+}
+._icon-contact:before {
+	content: "\e902";
+}
+._icon-charity:before {
+	content: "\e903";
+}
+._icon-people:before {
+	content: "\e904";
+}
+._icon-projects:before {
+	content: "\e905";
+}
+._icon-gallery-1:before {
+	content: "\e906";
+}
+._icon-report-1:before {
+	content: "\e907";
+}
+._icon-testimonial-1:before {
+	content: "\e908";
+}
+._icon-writing-1:before {
+	content: "\e909";
+}

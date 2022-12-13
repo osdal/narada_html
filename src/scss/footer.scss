@@ -1,0 +1,26 @@
+//====================================================================================================
+.footer {
+	&__container {
+		background: $liteBrownColor;
+		height: $footerHeight;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	&__menu {
+		ul {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		li {
+			font-family: "Yanone Kaffeesatz";
+			font-weight: 500;
+			font-size: 48px;
+			color: #fff;
+		}
+	}
+}
+
+//====================================================================================================
