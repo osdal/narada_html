@@ -5,6 +5,7 @@
 	align-items: center;
 }
 
+// Logo
 .logo {
 	margin-bottom: $logoMarginBottom;
 }
@@ -12,12 +13,13 @@
 	width: $logoWidth;
 }
 
+// Social icons
 .social-icons-block {
 	display: inline-flex;
 	gap: rem(155);
 	margin-bottom: $marginBottomSocialIcons;
 
-	&__item i {
+	& a {
 		font-size: $sizeSocialIcons;
 		color: $brownColor;
 	}
@@ -40,26 +42,21 @@
 		padding: 20px;
 	}
 
-	&__title-block {
+	& a {
+		color: $liteBrownColor;
+		font-size: $sizeTitleMainMenu;
+		font-weight: bold;
 		display: flex;
-		flex-direction: inline-flex;
 		align-items: center;
 		gap: 10px;
 	}
 
-	&__icon {
-		& i {
-			font-size: $sizeIconMainMenu;
-		}
+	& a::before {
+		font-size: $sizeIconMainMenu;
+		color: $brownColor;
 	}
 
-	&__title-item {
-		color: $liteBrownColor;
-		font-size: $sizeTitleMainMenu;
-		font-weight: bold;
-	}
-
-	&__item-content {
+	& p {
 		color: $grayColor;
 		font-size: $fontSizeItemContentMainMenu;
 	}
