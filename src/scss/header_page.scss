@@ -1,0 +1,39 @@
+.brown {
+	background-color: $liteBrownColor;
+}
+
+.header {
+	width: 100%;
+	&__page {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%x;
+	}
+
+	&__page-container {
+		width: 1440px;
+	}
+
+	&__page-logo img {
+		height: $headerConteinerHeight;
+	}
+
+	&__page-menu {
+		width: 100%;
+	}
+
+	&__page-menu ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__page-menu a {
+		font-size: rem(32);
+		color: $liteGray;
+		font-weight: 700;
+	}
+
+	&__page-lang-switch {
+	}
+}
