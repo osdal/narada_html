@@ -43,6 +43,20 @@
 @font-face {
 	font-family: Roboto;
 	font-display: swap;
+	src: url("../fonts/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/Roboto-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	font-display: swap;
+	src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	font-display: swap;
 	src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
@@ -51,13 +65,6 @@
 	font-family: Roboto;
 	font-display: swap;
 	src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: Roboto;
-	font-display: swap;
-	src: url("../fonts/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/Roboto-LightItalic.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -85,13 +92,6 @@
 @font-face {
 	font-family: YanoneKaffeesatz;
 	font-display: swap;
-	src: url("../fonts/YanoneKaffeesatz-ExtraLight.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-ExtraLight.woff") format("woff");
-	font-weight: 200;
-	font-style: normal;
-}
-@font-face {
-	font-family: YanoneKaffeesatz;
-	font-display: swap;
 	src: url("../fonts/YanoneKaffeesatz-Light.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Light.woff") format("woff");
 	font-weight: 300;
 	font-style: normal;
@@ -99,8 +99,22 @@
 @font-face {
 	font-family: YanoneKaffeesatz;
 	font-display: swap;
+	src: url("../fonts/YanoneKaffeesatz-ExtraLight.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-ExtraLight.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: YanoneKaffeesatz;
+	font-display: swap;
 	src: url("../fonts/YanoneKaffeesatz-Medium.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Medium.woff") format("woff");
 	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: YanoneKaffeesatz;
+	font-display: swap;
+	src: url("../fonts/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Regular.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
@@ -118,20 +132,6 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: YanoneKaffeesatz;
-	font-display: swap;
-	src: url("../fonts/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: narada;
-	font-display: swap;
-	src: url("../fonts/narada.woff2") format("woff2"), url("../fonts/narada.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
 	font-family: BodonBd;
 	font-display: swap;
 	src: url("../fonts/BodonBd.woff2") format("woff2"), url("../fonts/BodonBd.woff") format("woff");
@@ -142,6 +142,20 @@
 	font-family: BodonBI;
 	font-display: swap;
 	src: url("../fonts/BodonBI.woff2") format("woff2"), url("../fonts/BodonBI.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Pacifico;
+	font-display: swap;
+	src: url("../fonts/Pacifico-Regular.woff2") format("woff2"), url("../fonts/Pacifico-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: narada;
+	font-display: swap;
+	src: url("../fonts/narada.woff2") format("woff2"), url("../fonts/narada.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -197,15 +211,15 @@
 @font-face {
 	font-family: Roboto;
 	font-display: swap;
-	src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
-	font-weight: 500;
+	src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: Roboto;
 	font-display: swap;
-	src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
@@ -260,28 +274,21 @@
 @font-face {
 	font-family: YanoneKaffeesatz;
 	font-display: swap;
-	src: url("../fonts/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Regular.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/YanoneKaffeesatz-SemiBold.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-SemiBold.woff") format("woff");
+	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
 	font-family: YanoneKaffeesatz;
 	font-display: swap;
-	src: url("../fonts/YanoneKaffeesatz-SemiBold.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-SemiBold.woff") format("woff");
-	font-weight: 600;
+	src: url("../fonts/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Regular.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: social_icons;
 	font-display: swap;
 	src: url("../fonts/social_icons.woff2") format("woff2"), url("../fonts/social_icons.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: narada;
-	font-display: swap;
-	src: url("../fonts/narada.woff2") format("woff2"), url("../fonts/narada.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -293,16 +300,23 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: Roboto;
-	font-display: swap;
-	src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-}
-@font-face {
 	font-family: BodonBI;
 	font-display: swap;
 	src: url("../fonts/BodonBI.woff2") format("woff2"), url("../fonts/BodonBI.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: narada;
+	font-display: swap;
+	src: url("../fonts/narada.woff2") format("woff2"), url("../fonts/narada.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Pacifico;
+	font-display: swap;
+	src: url("../fonts/Pacifico-Regular.woff2") format("woff2"), url("../fonts/Pacifico-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }

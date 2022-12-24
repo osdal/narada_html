@@ -3,16 +3,17 @@
 }
 
 .header {
-	width: 100%;
 	&__page {
 		display: flex;
 		justify-content: space-around;
-		align-items: center;
-		width: 100%x;
+		width: 100%;
 	}
 
 	&__page-container {
-		width: 1440px;
+		width: rem(1600);
+		display: flex;
+		align-items: center;
+		gap: rem(20);
 	}
 
 	&__page-logo img {
@@ -25,15 +26,22 @@
 
 	&__page-menu ul {
 		display: flex;
-		justify-content: space-between;
+		justify-content: start;
+		gap: rem(70);
 	}
 
 	&__page-menu a {
-		font-size: rem(32);
+		font-size: rem($fontSizeMenuHeader);
 		color: $liteGray;
 		font-weight: 700;
 	}
 
 	&__page-lang-switch {
+	}
+
+	&__page-lang-switch a {
+		color: $yellowColor;
+		font-size: rem($fontSizeLandSwitch);
+		font-weight: 600;
 	}
 }
