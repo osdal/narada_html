@@ -38,11 +38,11 @@
 
 	&__content {
 		height: 100%;
-		font-size: 22px;
+		font-size: rem($fontSizePageContent);
 		text-align: justify;
 		color: #000;
 		text-indent: 80px;
-		line-height: 23px;
+		line-height: rem($lineHeightPageContent);
 	}
 
 	&__content::first-letter {
@@ -52,7 +52,14 @@
 		font-family: "Pacifico";
 	}
 
+	&__content p {
+		margin-bottom: rem(30);
+	}
+
 	&__bottom-widget {
+		color: $brownColor;
+		font-weight: 700;
+		font-size: larger;
 	}
 
 	&__sidebar {
@@ -84,5 +91,21 @@
 }
 .social-icons-block {
 	&__item {
+	}
+}
+
+.img-in-page {
+	display: flex;
+	flex-direction: column;
+	margin-right: rem(25);
+	float: left;
+	width: 30%;
+	& img {
+		width: 100%;
+		height: 100%;
+	}
+	& .img-in-page-desc {
+		color: $liteBrownColor;
+		font-style: italic;
 	}
 }
