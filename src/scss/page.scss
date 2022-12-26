@@ -1,6 +1,6 @@
 .page {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	background: #ffe4bf;
 	padding: rem(30);
 	color: $grayColor;
@@ -37,7 +37,6 @@
 	}
 
 	&__content {
-		height: 100%;
 		font-size: rem($fontSizePageContent);
 		text-align: justify;
 		color: #000;
@@ -63,24 +62,45 @@
 	}
 
 	&__sidebar {
-		display: flex;
-		flex-direction: column;
+		// display: flex;
+		// flex-direction: column;
+		min-width: rem(400);
+		background: $liteGray;
+		border: 3px solid $liteBrownColor;
+		border-radius: 27px;
+		padding: 10px;
+		height: fit-content;
 	}
 
 	&__sidebar-widget {
+		background: #fff;
+		padding: 20px;
+		border-radius: 20px;
+		margin-bottom: 20px;
+	}
+
+	&__sidebar-widget-title h2 {
+		color: $liteBrownColor;
+		font-size: rem(44);
+		font-weight: 600;
+		margin-bottom: rem(20);
 	}
 
 	&__sidebar-social-icons-block {
 		display: flex;
 	}
 
-	&__sidebar-widget-title {
-	}
-
 	&__sidebar-widget-title-entry {
+		color: #000;
+		font-size: rem(28);
+		font-weight: 700;
+		margin-bottom: rem(10);
 	}
 
 	&__sidebar-widget-content-entry {
+		color: #000;
+		font-size: rem(24);
+		margin-bottom: rem(10);
 	}
 
 	&__sidebar-widget-phone {
@@ -88,9 +108,30 @@
 
 	&__sidebar-widget-adress {
 	}
+
+	&__sidebar-social-icons-block {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: rem(20);
+	}
+
+	&__sidebar-widget-phone {
+		font-size: rem(24);
+		font-weight: 700;
+		margin-bottom: rem(20);
+	}
+
+	&__sidebar-widget-adress {
+		font-size: rem(24);
+		font-weight: 900;
+		color: $liteBrownColor;
+	}
 }
+
 .social-icons-block {
 	&__item {
+		font-size: rem(50);
+		color: $brownColor;
 	}
 }
 
