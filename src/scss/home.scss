@@ -29,6 +29,7 @@
 .main-menu {
 	color: $brownColor;
 	display: flex;
+	// grid-template-columns: repeat(5, 1fr);
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: rem(10);
@@ -47,17 +48,33 @@
 		color: $liteBrownColor;
 		font-size: $sizeTitleMainMenu;
 		font-weight: bold;
-		display: flex;
 		align-items: center;
 		gap: 10px;
 		padding-bottom: 5px;
 		line-height: rem(25);
 	}
 
-	& a::before {
+	& li {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: rem(20);
+		height: fit-content;
+	}
+
+	& li p {
+		display: block;
+	}
+
+	& li::before {
 		font-size: $sizeIconMainMenu;
 		color: $brownColor;
 	}
+	// & a::before {
+	// 	font-size: $sizeIconMainMenu;
+	// 	color: $brownColor;
+	// }
 
 	& p {
 		color: $grayColor;
