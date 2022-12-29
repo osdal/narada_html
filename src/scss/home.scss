@@ -28,18 +28,15 @@
 // Main menu
 .main-menu {
 	color: $brownColor;
-	display: flex;
-	// grid-template-columns: repeat(5, 1fr);
-	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
 	flex-wrap: wrap;
-	gap: rem(10);
+	grid-gap: 0.5vw;
 	width: 80%;
 
 	&__block {
 		background: $liteGray;
 		border-radius: $borderRadius;
-		flex: 1 1 calc((100% / 5) - 2rem);
-		height: $heightMainMenuBlock;
 		padding: 5px 20px;
 		box-shadow: 0 0 10px rgb(144, 37, 22, 0.5); /* Параметры тени */
 	}
@@ -57,10 +54,10 @@
 	& li {
 		display: flex;
 		flex-direction: row;
-		flex-wrap: wrap;
 		align-items: center;
+		flex-wrap: wrap;
 		gap: rem(20);
-		height: fit-content;
+		padding: 10px;
 	}
 
 	& li p {
