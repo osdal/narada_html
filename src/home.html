@@ -6,86 +6,91 @@
 
 <body>
 	<div class="wrapper">
-		@@include('html/_header.htm',{})
+		@@include('html/_header.htm',{})t
 		<main class="page">
-			<div class="main-content">
-				<div class="logo">
-					<img src="img/Logo.png" alt="logo">
+			<div class="container">
+				<h1 class="page__titile">
+					Заголовок статьи
+				</h1>
+				<div class="page__date-block">
+					<div class="page__date">
+						01.01.2023
+					</div>
+					<div class="page__author">
+						<span>Автор:</span> Osdal
+					</div>
 				</div>
-				<ul class="social-icons-block">
-					<li class="social-icons-block__item _icon-instagram-1">
-						<a href="#" class=""></a>
-					</li>
-					<li class="social-icons-block__item _icon-whatsapp-1">
-						<a href="#" class=""></a>
-					</li>
-					<li class="social-icons-block__item _icon-telegram-1">
-						<a href="#" class=""></a>
-					</li>
-				</ul>
-				<ul class="main-menu">
-					<li class="main-menu__block _icon-people">
-						<a class="" href="#">Про нас
-						</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-					<li class="main-menu__block _icon-projects">
-						<a class="">Наші проекти</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-					<li class="main-menu__block _icon-report-1">
-						<a class="">Звітність</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-					<li class="main-menu__block _icon-testimonial-1">
-						<a class="">Відгуки</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-					<li class="main-menu__block _icon-gallery-1">
-						<a class=""">Відео звіти</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги.Ми мешканці України.
-						</p>
-					</li>
-					<li class=" main-menu__block _icon-file">
-							<a class="">Реєстраційні<br>Документи</a>
-							<p>Ми мешканці України.
-								Допомагаємо всім потребующим допомоги.
-							</p>
-					</li>
-					<li class="main-menu__block _icon-writing-1">
-						<a class="">Блог</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-					<li class="main-menu__block _icon-gallery-1">
-						<a class="">Галерея</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-					<li class="main-menu__block _icon-charity">
-						<a class="">Donate</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-					<li class="main-menu__block _icon-contact">
-						<a class="">Контакти</a>
-						<p>Ми мешканці України.
-							Допомагаємо всім потребующим допомоги
-						</p>
-					</li>
-				</ul>
+				<div class="page__article">
+					<div class="page__content">
+						<div class="img-in-page">
+							<img src="@img/girl_in_suset 1.png" alt="">
+							<div class="img-in-page-desc">
+								Описание картинки
+							</div>
+						</div>
+						<article>
+							lorem*100
+						</article>
+
+					</div>
+					<section class="page__sidebar">
+						<div class="page__sidebar-widget">
+							<div class="page__sidebar-widget-title">
+								<h2>
+									<a href="#">Блог</a>
+								</h2>
+								<div class="page__sidebar-widget-title-entry">
+									<h3>
+										<a href="#">Заголовок статьи</a>
+									</h3>
+								</div>
+								<div class="page__sidebar-widget-content-entry">
+									Краткое описание статьи
+									Велика частина його тексту складається з розділів 1.10.32-3 з Цицерона De finibus bonorum ін
+									malorum ( на кордонах добра і зла ; finibus може alspo
+								</div>
+								<div class="page__sidebar-widget-title-entry">
+									<h3>
+										Заголовок статьи
+									</h3>
+								</div>
+								<div class="page__sidebar-widget-content-entry">
+									Краткое описание статьи
+									Велика частина його тексту складається з розділів 1.10.32-3 з Цицерона De finibus bonorum ін
+									malorum ( на кордонах добра і зла ; finibus може alspo
+								</div>
+							</div>
+						</div>
+						<div class="page__sidebar-widget">
+							<div class="page__sidebar-widget-title">
+								<h2>
+									Контакти
+								</h2>
+								<div class="page__sidebar-social-icons-block">
+									<li class="social-icons-block__item _icon-instagram-1">
+										<a href="#" class=""></a>
+									</li>
+									<li class="social-icons-block__item _icon-whatsapp-1">
+										<a href="#" class=""></a>
+									</li>
+									<li class="social-icons-block__item _icon-telegram-1">
+										<a href="#" class=""></a>
+									</li>
+									<div class="social-icons-block__item _icon-envelope-regular">
+										<a href="#" class=""></a>
+									</div>
+								</div>
+								<div class="page__sidebar-widget-phone">
+									Тел.: +38(050) 333-222-5
+								</div>
+								<div class="page__sidebar-widget-adress">
+									<p>Адреса:</p>
+									<p>49000, Україна, м. Дніпро, вул. Тітова</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
 			</div>
 		</main>
 		@@include('html/_footer.htm',{})
