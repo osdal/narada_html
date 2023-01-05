@@ -1,9 +1,10 @@
-.page {
+.page_my {
 	display: flex;
 	justify-content: center;
 	background: #ffe4bf;
 	padding: rem(30);
 	color: $grayColor;
+	height: 100%;
 
 	& .container {
 		display: flex;
