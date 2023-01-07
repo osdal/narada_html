@@ -1,6 +1,15 @@
+.wrapper_my {
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+	width: 100%;
+}
+
 .page_my {
 	display: flex;
 	justify-content: center;
+	flex:auto;
+	align-items:start;
 	background: #ffe4bf;
 	padding: rem(30);
 	color: $grayColor;
