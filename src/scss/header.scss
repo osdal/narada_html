@@ -1,4 +1,10 @@
 //====================================================================================================
+.header {
+	&__page-logo img {
+		width: rem(130);
+		height: rem(130);
+	}
+}
 .header__container {
 	display: flex;
 	flex-direction: column;
@@ -6,6 +12,7 @@
 	height: $headerConteinerHeight;
 	width: 100%;
 	background: radial-gradient(50% 50% at 50% 50%, #703201 44.27%, rgba(154, 106, 60, 0.97) 97.4%);
+	padding: 10px;
 }
 
 .site-name-block {
