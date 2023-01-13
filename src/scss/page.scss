@@ -145,11 +145,11 @@
 }
 
 .social-icons-block {
-	a::before {
+	li::before {
 		font-size: rem(50);
 	}
 	a {
-		font-size: 0;
+		font-size: 0px;
 	}
 	&__item {
 		font-size: rem(50);

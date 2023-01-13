@@ -129,6 +129,10 @@
 }
 
 .social-icons-block {
+	& a::before {
+		font-size: 50px;
+	}
+
 	&__item {
 		font-size: rem(50);
 		color: $brownColor;

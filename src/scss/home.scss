@@ -6,7 +6,7 @@
 }
 
 // Logo
-.logo {
+.custom-logo {
 	margin-bottom: $logoMarginBottom;
 }
 .logo img {
@@ -19,9 +19,12 @@
 	gap: rem(155);
 	margin-bottom: $marginBottomSocialIcons;
 
-	& a {
-		font-size: $sizeSocialIcons;
-		color: $brownColor;
+	a {
+		display: inline-block;
+	}
+	object {
+		pointer-events: none;
+		height: 150px;
 	}
 }
 
